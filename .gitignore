@@ -1,0 +1,8 @@
+dump/
+Notebooks/*.csv
+Notebooks/*.npy
+Notebooks/*.png
+Notebooks/*.pdf
+.ipynb_checkpoints/
+.DS_Store
+Data/crsp_return_data.csv

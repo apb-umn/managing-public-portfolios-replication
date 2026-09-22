@@ -1,0 +1,17 @@
+# Tested with Python 3.12 (notebooks were originally run with Python 3.11.5).
+# tikzplotlib is unmaintained and requires matplotlib < 3.8; pandas must be < 3.0.
+# setuptools is needed on Python 3.12+ because pandas_datareader imports distutils.
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+statsmodels==0.14.4
+arch==7.2.0
+scikit-learn==1.5.2
+pandas_datareader==0.10.0
+matplotlib==3.7.5
+tikzplotlib==0.10.1
+webcolors<24
+xlrd>=2.0.1
+setuptools
+ipykernel
+nbconvert
